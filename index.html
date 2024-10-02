@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surendra kumar</title>
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navigation Bar start-->
+     <header class="header">
+         <nav class="navbar">
+        <div class="nav-logo">
+            <a href="">Surendra kumar</a>
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+            <div class="nav-btn">
+                <i title="menu" class="fa-solid fa-bars icon"></i>
+                <i title="close" class="fa-solid fa-xmark icon"></i>
+            </div>
+        </nav>
+     </header>
+      <!-- Navigation Bar end-->
+
+      <!-- Hero section Start -->
+       <main class="hero-container">
+           <section class="hero-sction">
+            <div class="content">
+                <p class="subtitle">HELLO</p>
+                <h1 class="title">
+                    I'm <span>Surendra kumar<br>a</span> Web Developer
+                </h1>
+                <p class="description">
+                    Welcome to my web Developer portfolio! I'm Surendra, a skilled and creative web developer with a passion for creating beautiful, responsive, and user-friendly websites.
+                </p>
+            </div>
+            <div class="hero-img">
+                <img src="./assets/hero-img.jpg" alt="profile">
+            </div>
+           </section>
+       </main>
+      <!-- Hero section End -->
+
+
+      <!-- Project Section Start-->
+        <section class="section" id="projects">
+            <div class="project-heading">
+                <span>Let's See My Work</span>
+                <h2>My Projects</h2>
+            </div>
+            <div class="projects">
+                <!-- Project 1 -->
+                <div class="project">
+                    <div class="img-div">
+                        <img src="./assets/passgenerat.png" alt="profile">
+                        <div class="links">
+                            <a href="https://surendra-kumar06.github.io/Password-Generator-in-react/"><i class="fa-regular fa-eye"></i></a>
+                           <a href="https://github.com/surendra-kumar06/Password-Generator-in-react"> <i class="fa-solid fa-code"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                       <span class="project-title"> Password Generator</span>
+                        <span class="info">It allows users to create strong, random passwords based on customizable parameters.</span>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project">
+                    <div class="img-div">
+                        <img src="./assets/bubal.png" alt="profile">
+                        <div class="links">
+                            <a href="https://surendra-kumar06.github.io/Bubal-Game/"><i class="fa-regular fa-eye"></i></a>
+                           <a href="https://github.com/surendra-kumar06/Bubal-Game"> <i class="fa-solid fa-code"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                       <span class="project-title"> Bubal Game</span>
+                        <span class="info">Bubble game is an engaging web-based game built with HTML, CSS, and JavaScript.</span>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project">
+                    <div class="img-div">
+                        <img src="./assets/chatgpt.png" alt="profile">
+                        <div class="links">
+                            <a href="https://surendra-kumar06.github.io/ChatGPT-UI-Clone/"><i class="fa-regular fa-eye"></i></a>
+                           <a href="https://github.com/surendra-kumar06/ChatGPT-UI-Clone"> <i class="fa-solid fa-code"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                       <span class="project-title"> ChatGpt UI Clone</span>
+                        <span class="info">The ChatGPT UI Clone is a web application that mimics the interface of the ChatGPT.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+      <!-- Project Section End-->
+      
+
+      <!-- Contact Form Start -->
+       <section class="section" id="contact">
+        <div class="project-heading">
+            <span>Let's connect</span>
+            <h2>contact me</h2>
+        </div>
+        <form name="contactForm" onsubmit="return validateForm()" action="" class="form">
+            <div class="err-message"></div>
+            <input type="text" placeholder="Name" name="name">
+            <input type="email" placeholder="Email" name="email">
+            <textarea name="message" placeholder="Message" name="message"></textarea>
+            <button class="submit-btn">Submit</button>
+        </form>
+       </section>
+      <!-- Contact Form End -->
+
+      <!-- Footer -->
+       <section class="section">
+        <div class="footer">
+            Copyright © 2024 All rights reserved.
+        </div>
+       </section>
+
+      <!-- Javascript Section -->
+    <script src="script.js"></script>
+</body>
+</html>
